@@ -48,7 +48,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/#skills"
+                href="/login"
                 className="block py-2 pr-4 pl-3 text-white md:border-0 md:p-0"
               >
                 Login

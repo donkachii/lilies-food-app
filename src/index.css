@@ -4,14 +4,73 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.login-bg {
+  background-image: url("./images/loginBg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-heading {
+  font-weight: 600;
+  font-size: 1.688rem;
+  line-height: 2.063rem;
+  color: #00302e;
+}
+
+.login-form {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 2.063rem;
+  color: rgba(0, 48, 46, 0.53);
+  position: relative;
+}
+
+.login-form input {
+  background: rgba(255, 255, 255, 0.83);
+  border: 1px solid rgba(251, 221, 187, 0.51);
+  border-radius: 5px;
+  padding: 1.188rem 1.563rem;
+  width: 100%;
+}
+
+.password-show {
+  position: absolute;
+  padding: 1.188rem 1.563rem;
+  right: 0;
+  color: #00302E;
+  cursor: pointer;
+}
+
+.auth-button {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.313rem;
+  color: #fbddbb;
+  background: #00302e;
+  border-radius: 5px;
+  padding: 0.938rem 2.5rem;
+  width: 100%;
+}
+
+.login-question a {
+  font-weight: 700;
+  color: rgba(0, 48, 46, 0.91);
+}
+
+.login-question a:hover {
+  font-weight: 600;
+  color: rgba(251, 221, 187, 0.51);
 }
