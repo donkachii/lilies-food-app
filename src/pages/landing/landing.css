@@ -1,0 +1,77 @@
+input {
+  outline: none;
+}
+
+.landing {
+  background: #00302e;
+  font-family: "Poppins";
+}
+
+.landing-heading {
+  height: 100vh;
+}
+
+.lilies-icon-text {
+  font-weight: 700;
+}
+
+.navbar-links li a:hover {
+  color: #fbddbb;
+}
+
+.sign-up {
+  background: #e2b887;
+  border-radius: 7px;
+  color: #00302e;
+  padding: 0.625rem 2.375rem;
+}
+
+.sign-up:hover {
+}
+
+.landing-body > h1 {
+  font-size: 4rem;
+  line-height: 4.813rem;
+  color: #ffffff;
+}
+
+.landing-body > h1 > span {
+  color: #fbddbb;
+}
+
+.landing-body > p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 2.063rem;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.specials {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.063rem;
+  padding-bottom: 2.188rem;
+}
+
+.special-text {
+    padding-bottom: 6rem;
+}
+
+.notification-body {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.notification-heading {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.063rem;
+  color: #fbddbb;
+}
+
+.notification-input {
+  color: black;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  padding: 0.985rem 1rem;
+}
