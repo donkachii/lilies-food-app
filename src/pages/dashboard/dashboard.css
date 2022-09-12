@@ -1,0 +1,66 @@
+.lilies-dashboard-icon {
+  font-weight: 700;
+  font-size: 2.063rem;
+  line-height: 3.125rem;
+  letter-spacing: 0.05em;
+  color: #00302e;
+}
+
+.profile-container {
+  font-weight: 600;
+  font-size: 1.438rem;
+  line-height: 2.063rem;
+  color: #00302e;
+}
+
+.profile-container > p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.dishes-item > div {
+  background: rgba(255, 255, 255, 0.83);
+  border: 0.3px solid rgba(0, 48, 46, 0.14);
+  border-radius: 5px;
+}
+
+.dashboard-item {
+  max-width: 15rem;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 0.813rem;
+  line-height: 2.063rem;
+  color: #00302e;
+}
+
+.cart {
+  font-weight: 500;
+  font-size: 0.813rem;
+  line-height: 2.063rem;
+  color: #06e775;
+}
+
+.dashboard-item h6 {
+  font-weight: 600;
+  font-size: 1.063rem;
+  line-height: 2.063rem;
+  color: #00302e;
+}
+
+.dashboard-item p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard-sidebar > section > span,
+  .dashboard-sidebar > ul span {
+    display: none;
+  }
+}
