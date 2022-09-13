@@ -26,7 +26,7 @@ const Dashboard = () => {
               Lilies
             </span>
           </section>
-          <ul className="space-y-5 sm:space-y-3">
+          <ul className="space-y-5">
             <li>
               <a
                 href="/dashboard"
