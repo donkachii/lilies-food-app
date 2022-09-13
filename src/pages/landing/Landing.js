@@ -75,7 +75,7 @@ const Landing = () => {
             update our price list of have promos!
           </p>
         </article>
-        <article className="flex">
+        <article className="flex flex-wrap md:flex">
           <input
             className="notification-input mr-2"
             type="text"
