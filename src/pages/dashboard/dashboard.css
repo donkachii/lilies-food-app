@@ -27,6 +27,12 @@
 
 .dashboard-item {
   max-width: 15rem;
+  transition: transform 0.2s;
+}
+
+.dashboard-item:hover {
+  transform: scale(1.1);
+  box-shadow: inset 0 0 10px #f9fafb;
 }
 
 .price {
@@ -52,10 +58,63 @@
 
 .dashboard-item p {
   font-weight: 400;
-  font-size: 11px;
-  line-height: 21px;
+  font-size: 0.688rem;
+  line-height: 1.313rem;
   text-align: center;
   color: rgba(0, 0, 0, 0.69);
+}
+
+.modal-content {
+  float: right;
+}
+
+.selected-dish h6 {
+  font-weight: 600;
+  font-size: 1.063rem;
+  line-height: 2.063rem;
+  color: #00302e;
+}
+
+.selected-dish p {
+  font-weight: 400;
+  font-size: 0.688rem;
+  line-height: 1.688rem;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.selected-price {
+  font-weight: 600;
+  font-size: 1.063rem;
+  line-height: 2.063rem;
+  color: #00302e;
+}
+
+.cart-btn {
+  font-weight: 600;
+  font-size: 1.938rem;
+  line-height: 1.688rem;
+  text-align: center;
+  color: #00302e;
+  background: #f3c294;
+  padding: 0.688rem 1rem;
+}
+
+.add-cart-btn {
+  font-weight: 600;
+  font-size: 0.813rem;
+  line-height: 1.688rem;
+  text-align: center;
+  color: #fbfbfb;
+  background: #00302e;
+  padding: 1rem 2.188rem;
+}
+
+.order-no {
+  font-weight: 600;
+  font-size: 1.688rem;
+  line-height: 1.688rem;
+  text-align: center;
+  color: #00302e;
 }
 
 @media screen and (max-width: 767px) {
