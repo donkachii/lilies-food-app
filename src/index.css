@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+.navbar {
+  background-color: #00302E;
+}
+
 .login-bg {
   background-image: url("./images/loginBg.svg");
   background-position: center;

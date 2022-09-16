@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import landingFood from "../../images/landingFood.svg";
 import googlePlay from "../../images/googlePlay.svg";
@@ -13,12 +12,15 @@ import LiliesButton from "../../components/LiliesButton";
 import Footer from "../../components/footer/Footer";
 
 const Landing = () => {
-  let navigate = useNavigate();
+
   return (
     <div className="landing text-white scroll-smooth">
       <Navbar />
       <section className="landing-heading container md:flex justify-between items-center mx-auto px-2 py-20 mb-5">
         <article className="landing-body pb-8">
+        <article className=" inline-block md:hidden flex justify-center">
+          <img classname="shadow rounded max-w-full h-auto align-middle border-none" src={landingFood} alt="" />
+        </article>
           <h1 className="font-medium pb-2">
             Order <span>food</span> anytime, anywhere
           </h1>
@@ -31,7 +33,7 @@ const Landing = () => {
             <img src={appStore} alt="apple" />
           </div>
         </article>
-        <article>
+        <article className="hidden md:inline-block">
           <img src={landingFood} alt="" />
         </article>
       </section>
@@ -75,9 +77,9 @@ const Landing = () => {
             update our price list of have promos!
           </p>
         </article>
-        <article className="flex flex-wrap md:flex">
+        <article className="flex flex-wrap justify-center flex-col gap-2 md:flex md:flex-row">
           <input
-            className="notification-input mr-2"
+            className="notification-input"
             type="text"
             placeholder="gregphillips@gmail.com"
           />
