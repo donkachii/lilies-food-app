@@ -75,3 +75,9 @@ input {
   border-radius: 5px;
   padding: 0.985rem 1rem;
 }
+
+@media screen and (max-width: 767px) {
+ .landing-heading {
+  height: auto;
+ }
+}

@@ -18,9 +18,9 @@ const Landing = () => {
       <Navbar />
       <section className="landing-heading container md:flex justify-between items-center mx-auto px-2 py-20 mb-5">
         <article className="landing-body pb-8">
-        <article className=" inline-block md:hidden flex justify-center">
+        {/* <article className=" inline-block md:hidden flex justify-center">
           <img classname="shadow rounded max-w-full h-auto align-middle border-none" src={landingFood} alt="" />
-        </article>
+        </article> */}
           <h1 className="font-medium pb-2">
             Order <span>food</span> anytime, anywhere
           </h1>

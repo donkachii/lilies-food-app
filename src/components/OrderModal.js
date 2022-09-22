@@ -6,7 +6,7 @@ const OrderModal = ({ setShowOrderModal }) => {
     <>
       <div className="overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 outline-none focus:outline-none md:inset-0 h-modal md:h-full">
         <div className="modal-content relative w-full max-w-md h-full md:h-auto">
-          <div className="relative border-0 bg-white shadow outline-none focus:outline-none md:h-screen px-16 flex justify-center items-center">
+          <div className="relative border-0 bg-white shadow outline-none focus:outline-none py-14 md:py-0 md:h-screen px-16 flex justify-center items-center">
             <section>
               <article className="selected-dish text-center flex flex-col items-center pb-4">
                 <img
